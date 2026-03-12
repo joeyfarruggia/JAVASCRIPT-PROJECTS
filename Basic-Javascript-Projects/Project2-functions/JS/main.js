@@ -12,3 +12,9 @@ function My_Function() {
     var str = "You did it!";
     document.getElementById("Button_Text").innerHTML = str;
 }
+
+function Concatenate_Function() {
+    var sentence = "I am learning";
+    sentence += " a lot from this course!";
+    document.getElementById("Concatenate").innerHTML = sentence;
+}
