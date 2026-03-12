@@ -21,3 +21,9 @@ var Family = "The Farruggia's"; Dad = " Joey"; Mom = " Sarah"; Son1 = " Ryder"; 
 document.write(Dad);
 
 document.write(6 * 6); //This is showing a math expression, which JavaScript can perform the calculation and show the answer.
+
+var Sent1 = "This is the beginning of the string";
+
+var Sent2 = " and this is the end of the string";
+
+window.alert (Sent1 + Sent2); //This is showing that you can also concatenate variables together, not just strings.
