@@ -8,8 +8,20 @@ var B = "This is another pop-up.";
 
 window.alert(B);
 
+var C = "\"I hope there aren't too many pop-ups!\" - Person who doesn't like pop-ups.";
+window.alert(C);
+
+var D = "This is the last pop-up.";
+window.alert(D);
+
+var E = "This is the last pop-up, I promise.";
+window.alert(E);
+
+var F = "Sorry, I lied, if you cluck like a chicken, this will be the last pop-up.";
+window.alert(F);
+
 function My_Function() {
-    var str = "You did it!";
+    var str = "You made it!";
     document.getElementById("Button_Text").innerHTML = str;
 }
 
