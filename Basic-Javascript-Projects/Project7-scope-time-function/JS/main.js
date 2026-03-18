@@ -56,11 +56,11 @@ function Time_Function() {
     if (Time < 12 == Time > 0) {
         Reply = "It is morning time!";
     }
-    else if (Time >= 12 == Time , 18) {
+    else if (Time >= 12 == Time < 18) {
         Reply = "It is afternoon!";
     }
     else {
-        Reply = "Is is evening."
+        Reply = "It is evening.";
     }
     document.getElementById("Time-of-day").innerHTML = Reply;
 }
