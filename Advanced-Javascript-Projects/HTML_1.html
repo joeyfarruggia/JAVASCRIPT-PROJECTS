@@ -12,17 +12,26 @@
     <h3>Pick a car from the list below:</h3>
     <ul>
         <li>Ford Raptor</li>
-        <li>Ferrari F40</li>
-        <li>Chevy Corvette</li>
+        <li class="Sports_Car">Ferrari F40</li>
+        <li class="Sports_Car">Chevy Corvette</li>
         <li>Honda Civic</li>
-        <li>Porsche 911</li>
-        <li>Audi R8</li>
+        <li class="Sports_Car">Porsche 911</li>
+        <li class="Sports_Car">Audi R8</li>
     </ul>
     <h3>Enter your choice below:</h3>
 
     <input id="Car_Input" type="text">
     <button onclick="Car_Function()">Submit Car</button>
     <p id="output"></p>
+
+    <h3>Highlight all sports cars:</h3>
+    <button onclick="Highlight_Function()">Highlight Sports Cars</button>
+    <p id="Highlight_Output"></p>
+
+    <h3>Canvas:</h3>
+    <canvas id="Canvas" width="400" height="200" style="border: 2px solid black;"></canvas>
+    <br>
+    <button onclick="Circle_Function()">Draw Circle</button>
 </body>
 
 </html>

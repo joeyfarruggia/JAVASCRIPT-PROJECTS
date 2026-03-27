@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Form</title>
+	<link rel="stylesheet" href="CSS/CSS_1.css">
+	<script src="JavaScript/JavaScript_2.js" defer></script>
+</head>
+
+<body>
+	<header>
+		<h1>Contact Us Form</h1>
+		<p>Fill out the form below and see what happens!</p>
+	</header>
+
+	<main>
+		<form id="Contact_Form" action="#" method="post">
+			<label for="name">Full Name:</label>
+			<br>
+			<input type="text" id="name" name="name" required>
+			<br><br>
+
+			<label for="email">Email Address:</label>
+			<br>
+			<input type="email" id="email" name="email" required>
+			<br><br>
+
+			<label for="subject">Subject:</label>
+			<br>
+			<input type="text" id="subject" name="subject">
+			<br><br>
+
+			<label for="message">Message:</label>
+			<br>
+			<textarea id="message" name="message" rows="5" cols="30" required></textarea>
+			<br><br>
+
+			<p id="Form_Message"></p>
+
+			<button type="submit">Submit</button>
+			<button type="reset">Clear Form</button>
+		</form>
+	</main>
+</body>
+
+</html>
