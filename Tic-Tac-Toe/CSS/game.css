@@ -24,7 +24,11 @@ td {
     padding: 0px;
     width: 200px;
     height: 200px;
-    filter: contrast(3);
+    /*Show one background image centered in each square*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    filter: contrast(1);
 }
 
 canvas {
