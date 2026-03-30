@@ -3,8 +3,9 @@ function getReceipt() {
     // function to function, growing line by line into a full receipt
     var text1 = "<h3>You Ordered:</h3>";
     var runningTotal = 0;
-    var sizeTotal = 0;
+    var sizeTotal = 0; 
     var sizeArray = document.getElementsByClassName("size");
+    // This for loop will figure out which size was selected and how much it costs.
     for (var i = 0; i < sizeArray.length; i++) {
         if (sizeArray[i].checked) {
             var selectedSize = sizeArray[i].value;
@@ -30,10 +31,11 @@ function getReceipt() {
     getTopping(runningTotal, text1);
 };
 
+// This function will be triggered after the user selects their pizza size
 function getTopping(runningTotal, text1) {
     var toppingTotal = 0;
     var selectedTopping = [];
-    var toppingArray = document.getElementsByClassName("toppings");
+    var toppingArray = document.getElementsByClassName("toppings"); //
     for (var j = 0; j < toppingArray.length; j++) {
         if (toppingArray[j].checked) {
             selectedTopping.push(toppingArray[j].value);
@@ -47,6 +49,7 @@ function getTopping(runningTotal, text1) {
     } else {
         toppingTotal = 0;
     }
+    // Calculate the running total by adding the topping total to the size total
     runningTotal = (runningTotal + toppingTotal);
     console.log("total selected topping items: " + toppingCount);
     console.log(toppingCount + " topping - 1 free topping = $" + toppingTotal + ".00");

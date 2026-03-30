@@ -14,6 +14,7 @@
         <h1>Pizza Drill Tutorial</h1>
         <input id="btnOrder" type="button" value="Place Order" onclick="getReceipt()">
         <form id="frmMenu">
+            <!-- Size Selection-->
             <div class="menu left">
                 <h3>Size:</h3>
                 <input class="size" type="radio" name="size" value="Personal Pizza">
@@ -27,6 +28,7 @@
                 <input class="size" type="radio" name="size" value="Extra Large Pizza">
                 Extra Large Pizza<br>
             </div>
+            <!-- Veggie Selection -->
             <div class="menu center">
                 <h3>Veggies:</h3>
                 <input class="toppings" type="checkbox" name="Topping" value="Mushrooms">
@@ -40,6 +42,7 @@
                 <input class="toppings" type="checkbox" name="Topping" value="Green Peppers">
                 Green Peppers<br>
             </div>
+            <!-- Meat Selection -->
             <div class="menu right">
                 <h3>Meats:</h3>
                 <input class="toppings" type="checkbox" name="Topping" value="Pepperoni">
@@ -57,6 +60,7 @@
                 <input class="toppings" type="checkbox" name="Topping" value="Meatballs">
                 Meatballs<br>
             </div>
+            <!-- Cart Section -->
             <div id="cart">
                 <div id="showText"></div>
                 <div id="totalPrice"></div>
