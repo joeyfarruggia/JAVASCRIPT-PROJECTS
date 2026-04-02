@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+/*Font Gloock imported from Google Fonts*/
 
+/*CSS Variables for font family*/
 :root {
     --main-font: 'Gloock', serif;
 }
@@ -26,6 +28,7 @@ h3 {
 
 /*HEADER SECTION*/
 
+/*Shine effect for header text*/
 .shine {
     background-image: linear-gradient(0.15turn,
             #000000 40%,
@@ -40,7 +43,7 @@ h3 {
 
 }
 
-/*add transition properties in video*/
+/*Add transition properties in video*/
 .header {
     padding-top: 150px;
     font-size: 150px;
@@ -55,7 +58,7 @@ h3 {
 
 .car-title {
     font-size: 30px;
-    display: none;
+    display: none; /*Hides car image titles until user hovers using the JQuery effect*/
 }
 
 .container {
@@ -78,7 +81,7 @@ h3 {
 }
 
 img {
-    width: 100%;
+    width: 100%; /*Takes up 100% of the space in each column*/
     height: auto;
     cursor: pointer;
     box-shadow: 20px 20px 20px -9px rgba(60, 60, 60, 0.35),
@@ -93,12 +96,12 @@ img {
 }
 
 .question {
-    padding: 5px 20px;
-    border-bottom: 1px solid black;
+    padding: 50px 20px;
+    border-bottom: 1px solid black; /*Creates a line between each question*/
     cursor: pointer;
 }
 
 .answer {
-    display: none;
+    display: none; /*Hides the answer until user clicks on the question using the JQuery effect*/
     padding: 40px 20px;
 }
