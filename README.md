@@ -1,5 +1,5 @@
 # JAVASCRIPT-PROJECTS
-This repository is for my Tech Academy JavaScript projects.
+This repository is some beginner projects I made for my Tech Academy JavaScript course.
 
 ## Projects
 
